@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information System</title>
+    <link href="css/style.css" rel="stylesheet" type ="text/css">
+</head>
+<body>
+    <div id="banner" align="center">
+        Student Information System
+    </div>
+    <br>
+    <div align="center">
+    <div id="box">
+        <span class="formHeading">Student Login</span>
+        <br>
+        <br>
+        <form method="POST" action="<?php echo $_SERVER['PHP_SELF'];?>">
+        <table border="0" cellpadding="5" cellspacing="5">
+            <tr>
+                <td class="labels">Email:</td>
+                <td><input type="email" name="email" size="20" required placeholder="Enter Email"></td>
+
+            </tr>
+            <tr>
+                <td class="labels">Password:</td>
+                <td><input type="password" name="password" size="20" required placeholder="Enter Password"></td>
+
+            </tr>
+            <tr>
+                <td class="labels" colspan="2"align="center"><input type="submit" value="Login"></td>
+                
+
+            </tr>
+        </table>
+    </form>
+    </div>
+    </div>
+    <div id="footer" align="center">&copy; Copyright Sam 2020 | Designed  & Developed by Saumya Srishti</div>
+</body>
+</html>
